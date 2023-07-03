@@ -1,0 +1,29 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    /* letter-spacing: 5px; espaçamento entre as letras */
+    
+}
+
+.div_geral{
+    border: 1px solid black;
+}
+
+span{
+   
+    font-weight: 900;
+}
+
+li{
+    margin: 8px;
+}
