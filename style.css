@@ -1,7 +1,10 @@
+
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
     line-height: 1.5;
+    margin-bottom: 0px;
 }
 
 main{
@@ -26,4 +29,12 @@ span{
 
 li{
     margin: 8px;
+}
+
+footer{
+    margin: 50px 0px 0px 0px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.599);
+    color: white;
 }

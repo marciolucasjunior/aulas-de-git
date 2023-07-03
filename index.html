@@ -18,16 +18,41 @@
             </li>
             <li><span>branch é :</span> criar uma ramificação uma nova linha da atual versão do código para fazer modificações sem alterar a versão atual, após as alterações feitas na branch se (quiser) fazer marge para salvar as modificações.
             </li>
+           
         </ul>
         <h2>Comandos do git</h2>
         <ul>
             <li><span>git init:</span> é para inicializar um repositorio local da pasta atual no git</li>
+
             <li><span>git status:</span> verifica o status atual do repositório, incluindo arquivos modificados e arquivos na area de stage</li>
+
             <li><span>git add:</span> Add arquivos selecionados para área de stage (pronto para ser commitado) é necessário antes de fazer o commit no caso de ser o primeiro commit</li>
+
             <li><span>git add . :</span> Add todos os arquivos do projeto no git</li>
+
             <li><span>git commit -m "escrever alguma coisa":</span> Cria uma nova versão do projeto</li>
-            <li><span>git log :</span> Ver quais versões temos no nosso git ver históricos de commits</li>
+
+            <li><span>git log</span> Ver commits recentes</li>
+
+            <li><span>git log --all</span> Ver todos os commits </li>
+
+           
+
+            <li><span>git checkout :</span> para voltar, usar uma versão anterior commit.
+            usar o id do commit para voltar para ele.
+            exemplo: git checkout 178bda8d369d3fa093b64f398b2003cc82a535d8
+           </li>
+
+           <li><span>git checkout master :</span> voltar para a ultima versão master
+           </li>
+
         </ul>
+        <h2>Observações</h2>
+        <p>Quando usamos o git log, aparece a palvra <span>HEAD e uma seta</span>.  </p>
+        <p>Isso indica qual commit estamos trabalhando e qual ramificação estamos por exemplo:(master) é a principal.</p>
     </main>
+    <footer>
+        apredendo git
+    </footer>
 </body>
 </html>
